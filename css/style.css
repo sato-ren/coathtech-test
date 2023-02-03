@@ -4,6 +4,7 @@ header {
   justify-content: space-between;
   align-items: center;
   color: #00008B;
+  font-size: 20px;
 }
 
 ul {
@@ -31,23 +32,23 @@ li {
   width: 100%;
 }
 
-.set {
-  position: absolute;
-  top: 50px;
-  z-index: 2;
+html {
+  font-size: 75%;
 }
 
 .maintext {
-  font-size: 30px;
-  position: relative;
+  font-size: 5rem;
+  position: absolute;
+  top: 35%;
 }
 
 .bar {
   display: block;
-  width: 500px;
-  height: 50px;
+  width: 70%;
+  height: 45%;
   margin: 0 auto 0 0;
   background-color: #00008B;
   position: absolute;
-  top: 70px;
+  top: 75%;
+  z-index: -1;
 }
